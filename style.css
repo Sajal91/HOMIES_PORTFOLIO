@@ -1,0 +1,67 @@
+.cards {
+    height:230px;
+    width:200px;
+    display: inline-block;
+    margin: 20px 20px;
+    border-radius: 20px;
+    box-shadow: -5px 5px 10px #000000;
+    font-weight: bolder;
+    font-size: 25px;
+    transition: 0.3s ease-in-out;
+}
+
+#male1 img{
+    height: 100px;
+    width: 100px;
+    padding-inline: 25%;
+    background-color: #800080;
+}
+
+#male2 img{
+    padding-inline: 25%;
+    height: 100px;
+    width: 100px;
+    background-color: #00ffff;
+}
+
+#male3 img{
+    padding-inline: 25%;
+    height: 100px;
+    width: 100px;
+    background-color: #00ff88;
+}
+
+#male4 img{
+    padding-inline: 25%;
+    height: 100px;
+    width: 100px;
+    background-color: #eeff00;
+}
+
+#male5 img{
+    padding-inline: 25%;
+    height: 100px;
+    width: 100px;
+    background-color: #ff8800;
+}
+
+img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+#DA, #SE, #WB, #HR, #DE {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.cards:hover {
+    box-shadow: -15px 15px 30px #4a4a4a;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#box {
+    position: fixed;
+    top: 30%;
+    left: 10%;
+}
