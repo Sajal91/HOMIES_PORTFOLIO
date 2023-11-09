@@ -59,9 +59,10 @@ img {
     cursor: pointer;
 }
 
-.cards:active {
+.cards:hover {
     box-shadow: -15px 15px 30px #4a4a4a;
     cursor: pointer;
+    transition-duration: 0.5s;
 }
 
 #box {
